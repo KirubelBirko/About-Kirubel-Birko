@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&family=Smythe&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+    background-color: #f8f7f4;
+}
+
+#headertitel > article {
+    display: flex;
+    justify-content: center;
+}
+
+
+#headertitel > article > h1 {
+    color: #754e4d;
+    font-size: 40px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+#headerfoto {
+display: flex;
+justify-content: center;
+}
+
+
+#headerfoto > img {
+    width: 10%;
+    transition: transform 0.3s ease;
+}
+
+#headerfoto > img:hover {
+    transform: rotate(6deg) scale(1.2  );
+}
