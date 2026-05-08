@@ -8,14 +8,13 @@
     <title>About me</title>
 </head>
 <body>
-<section id="wie-ben-ik1">
 <?php
 include "includes/header.php";
 ?>
 <main>
 
 
-
+<section id="wie-ben-ik1">
 <section id="snelleoptions">
     <article>
         <h2><a href="#wie-ben-ik1">Wie ben ik</a></h2>
@@ -56,6 +55,10 @@ include "includes/header.php";
     <h1>Invul formulier<h1>
 </articel>
 
+
+
+
+
 <?php
 
 $host = 'localhost';
@@ -90,15 +93,13 @@ try {
             'f' => $feedback
         ]);
 
-        echo "Dit word gestuurd naar de database. Bedankt voor uw feedback,  $voornaam van $bedrijf!";
+        echo "Dit word gestuurd naar de database, $voornaam van $bedrijf!";
     }
 } catch (PDOException $e) {
     die("Fout bij verbinden: " . $e->getMessage());
 }
 ?>
 
-</form>
-</section>
 
 <form action="" method="post">
 
