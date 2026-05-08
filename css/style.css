@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&family=Smythe&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 header {
@@ -30,8 +30,8 @@ header {
 }
 
 #headerfoto {
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -41,5 +41,5 @@ justify-content: center;
 }
 
 #headerfoto > img:hover {
-    transform: rotate(6deg) scale(1.2  );
+    transform: rotate(6deg) scale(1.2);
 }
