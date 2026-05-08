@@ -9,9 +9,9 @@
 
 header {
     background-color: #f8f7f4;
-    background-image: url(../images/fotosoftware.png);
-    background-size: 100% 600px;
-    background-position: center;
+    background-image: url(../images/werkplaats.png);
+    background-size: 100% 500px;
+    background-position: bottom;
 }
 
 
@@ -71,6 +71,7 @@ footer {
     font-family: "Castoro Titling", serif;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-weight: 350;
 }
 
 #stageinfo p {
