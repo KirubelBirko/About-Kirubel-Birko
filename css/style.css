@@ -1,5 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&family=Smythe&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&family=Smythe&display=swap');
 
 * {
     margin: 0;
@@ -42,4 +42,50 @@ header {
 
 #headerfoto > img:hover {
     transform: rotate(6deg) scale(1.2);
+}
+
+footer {
+    background-color: #bd9479;
+}
+
+
+
+#footerinfo {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    text-align: center;
+    font-size: 15px;
+    
+}
+
+#footerinfo p {
+    transition: transform 0.3s ease;
+}
+
+#footerinfo p:hover {
+    transform: scale(1.5);
+}
+
+#footerinfo > section > article > h2 {
+    color: #f8f7f4;
+    font-family: "Castoro Titling", serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#stageinfo p {
+     font-family: "Montserrat", sans-serif;
+     margin-bottom: 30px;
+}
+
+#klasinfo p {
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 30px;
+}
+
+#schoolinfo a, p {
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: inherit;
 }
