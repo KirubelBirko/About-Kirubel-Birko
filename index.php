@@ -44,7 +44,7 @@ include "includes/header.php";
 <section id="wat-kan-ik">
     <section id="wat-kan-ik-codes">
     <article>
-    <p>Ik heb deze pagina zo gebouwd dat alle informatie die u hier invult, via PHP direct wordt doorgestuurd en opgeslagen in mijn database.</p>
+    <p>Ik heb deze formulier zo gebouwd dat alle informatie die u hier invult, via PHP direct wordt doorgestuurd en opgeslagen in mijn database.</p>
     </article>
     </section>
 
