@@ -14,7 +14,7 @@ body {
 header {
     background-color: #f8f7f4;
     background-image: url(../images/werkplaats.png);
-    background-size: 100%;
+    background-size: 100% 800px;
     background-position: bottom;
 }
 
