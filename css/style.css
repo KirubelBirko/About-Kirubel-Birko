@@ -14,7 +14,7 @@ body {
 header {
     background-color: #f8f7f4;
     background-image: url(../images/werkplaats.png);
-    background-size: 100% 500px;
+    background-size: 100%;
     background-position: bottom;
 }
 
@@ -135,7 +135,7 @@ footer {
     
     color:#5b4f47;
     font-family: "Montserrat", sans-serif;
-    font-size: 24px;
+    font-size: 27px;
     width: 550px;
     
 }
@@ -162,24 +162,16 @@ footer {
     
 }
 
-@keyframes slideText {
-    0% { transform: translateX(-100%); } 
-    100% { transform: translateX(100vw); } 
-}
 
 #wat-kan-ik-codes > article {
-    display: grid;
-    grid-template-columns: repeat(4 , 1fr);
-    white-space: nowrap;
-    animation: slideText 20s linear infinite;
-    padding: 25px;
+    padding: 30px;
 }
 
-#wat-kan-ik-codes h2 {
+#wat-kan-ik-codes p {
     color: #f8f7f4;
     font-family: "Montserrat", sans-serif;
-    text-align: center;   
     font-weight: 400;
+    text-align: center;
 }
 
 form {

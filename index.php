@@ -44,10 +44,7 @@ include "includes/header.php";
 <section id="wat-kan-ik">
     <section id="wat-kan-ik-codes">
     <article>
-    <h2>Javascript</h2>
-    <h2>PHP</h2>
-    <h2>SQL-database</h2>
-    <h2>HTML/CSS</h2>
+    <p>Ik heb deze pagina zo gebouwd dat alle informatie die u hier invult, via PHP direct wordt doorgestuurd en opgeslagen in mijn database.</p>
     </article>
     </section>
 
@@ -93,7 +90,7 @@ try {
             'f' => $feedback
         ]);
 
-        echo "Dit word gestuurd naar de database, $voornaam van $bedrijf!";
+        echo "Bedankt voor het invullen, $voornaam van $bedrijf!";
     }
 } catch (PDOException $e) {
     die("Fout bij verbinden: " . $e->getMessage());
